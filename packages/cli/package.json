@@ -1,0 +1,39 @@
+{
+  "name": "intellibook-ai",
+  "version": "1.0.0",
+  "description": "Official CLI for Intellibook AI — WhatsApp AI Receptionist & Appointment Automation for Salons and Clinics in India",
+  "main": "bin/intellibook.js",
+  "bin": {
+    "intellibook": "bin/intellibook.js",
+    "intellibook-ai": "bin/intellibook.js"
+  },
+  "keywords": [
+    "intellibook",
+    "intellibook-ai",
+    "whatsapp-receptionist",
+    "appointment-booking",
+    "salon-booking",
+    "clinic-booking",
+    "mcp-server",
+    "ai-agent"
+  ],
+  "author": "Intellibook AI <support@intellibookai.com>",
+  "license": "MIT",
+  "homepage": "https://www.intellibookai.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perpetualone/intellibook-ai.git",
+    "directory": "packages/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/perpetualone/intellibook-ai/issues"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
